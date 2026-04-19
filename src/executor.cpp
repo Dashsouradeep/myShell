@@ -5,6 +5,7 @@
 #include <cstring>     // strerror
 #include <cerrno>      // errno
 #include <vector>
+#include <array>
 
 // ── Built-in commands ──────────────────────────────────────────────────────
 

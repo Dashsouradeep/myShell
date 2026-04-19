@@ -8,6 +8,6 @@ class Executor
 
     private:
         static bool execute_builtin(const Command& cmd);
-        static void execute_external(const Command& cmd);
+        static void execute_single(const Command& cmd);
         static void execute_pipeline(const Pipeline& pipeline);
 };
